@@ -3,7 +3,7 @@ version: '3.8'
 services:
   postgres:
     image: postgres:17.4
-    container_name: postgres_container
+    container_name: postgres_task_flow
     environment:
       POSTGRES_USER: root
       POSTGRES_PASSWORD: root
